@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For_long</title>
+</head>
+<body>
+</body>
+</html>
+<script>
+  let table_number = "<table width = '400' border = '1' cellspacing = '0' cellpadding = '4'>";
+  for (let i = 1; i <= 10 ; i++) {
+    table_number += "<tr>";
+    for (let j = 1; j <= 10 ; j++) {
+      table_number += "<td>" + i*j + "</td>";
+    }
+    table_number += "</tr>";
+  }
+  table_number += "</table>";
+  document.write(table_number);
+</script>
